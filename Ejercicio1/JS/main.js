@@ -1,15 +1,33 @@
+//Calcular figuras (cuadrado, circulo, triangulo)
+//pedir informacion al usuario
+    //definir prompt 
+//Que informacion le pido al usuario
+    //que figura quieres cancular? Tipo de figura quiere calcular
+    //definir variable figura
+//Que valores le voy a pedir al usuario segun la figura
+    //Si es cuadrado el valor del lado. Guardo en una variable *lado
+    //Si es circulo el valor del radio. Guardo en una variable *radio
+    //Si es triangulo , la base y la altura. Guardo en una variable *bya
+//Definir metodo o funcion , calcular cuadrado.
+//Definir metodo o funcion , calcular triangulo
+//Definir metodo o funcion, calcular circulo
+//Que te devuelve el valor en cada uno de ellos
+//Imprimir o mostrar por consola.
+
+
 // Author : Alfonso Lara 
 // Version 1.0
 
 
 //Input
-
-var figura = prompt("Introduce que figura quieres calcular:\ncirculo\ntriangulo\ncuadrado");
+var figura;
+figura = prompt("Introduce que figura quieres calcular:\ncirculo\ntriangulo\ncuadrado");
 
 const PI = 3.1416;
 
 if (figura == "circulo") {
-    var radio = prompt("Introduce el radio del círculo");
+    var radio;
+    radio = prompt("Introduce el radio del círculo");
     radio = parseFloat(radio);
 }
 
