@@ -10,3 +10,16 @@
 //Numero primo solo puede debirse entre 1 y sí mismo
 // Ejemplo 25(no es primo), divisible entre 5.
 // Ejemplo2 17 si es primo, 17/17=1 / 17/1=17
+
+let numero = "";
+let primo = true;
+
+
+numero=prompt("Indicame un número para saber si es primo o no");
+
+for (let i = 2; i < numero; i++) {
+    if (numero%i == 0 ) {
+        primo = false;
+    }
+console.log(primo);
+}
