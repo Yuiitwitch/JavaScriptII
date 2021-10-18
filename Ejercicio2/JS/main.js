@@ -9,10 +9,10 @@
 // Author: Alfonso lara 
 // version: 1.0
 
-var numeros=prompt("¿Cuantos numeros aleatorios deseas crear?");
+let numeros=prompt("¿Cuantos numeros aleatorios deseas crear?");
 
-var maximos=prompt("Numeros maximos");
-var minimos=prompt("Numeros minimos");
+let maximos=prompt("Numeros maximos");
+let minimos=prompt("Numeros minimos");
 
 //proceso
 
@@ -21,6 +21,6 @@ function calcularAleatorios(maximo,minimo) {
 }
 
 //output
-for (let index = 0; index <= numeros; index++) {
-    alert(parseInt(calcularAleatorios(maximos,minimos)));
+for (let i = 1; i<= numeros; i++) {
+    console.log(parseInt(calcularAleatorios(maximos,minimos)+minimos));
 }

@@ -20,26 +20,26 @@
 
 
 //Input
-var figura;
+let figura;
 figura = prompt("Introduce que figura quieres calcular:\ncirculo\ntriangulo\ncuadrado");
 
 const PI = 3.1416;
 
 if (figura == "circulo") {
-    var radio;
+    let radio;
     radio = prompt("Introduce el radio del círculo");
     radio = parseFloat(radio);
 }
 
 if (figura == "triangulo") {
-    var base = prompt("Introduce la base del triángulo");
+    let base = prompt("Introduce la base del triángulo");
     base = parseFloat(base);
-    var altura = prompt("Introduce la altura del triángulo");
+    let altura = prompt("Introduce la altura del triángulo");
     altura = parseFloat(altura);
 }
 
 if (figura == "cuadrado") {
-    var lado = prompt("Introduce el lado del cuadrado");
+    let lado = prompt("Introduce el lado del cuadrado");
     lado = parseFloat(lado);
 }
 
