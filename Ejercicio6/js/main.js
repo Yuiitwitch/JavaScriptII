@@ -2,7 +2,13 @@
 // (hay que controlarlo) pedido por prompt. Crea un método que realice esta acción,
 // pasando el número por parámetro devolverá el número de cifras.
 
-let numero=prompt("Dime un número");
-let cifras = Array.from(numero);
-
-console.log(cifras.length);
+const cifras = (numero) => {
+    if (numero=0  && !numero.includes(".")){
+resultado = numero.toString().length;
+        return "El numero" + numero + "contiene" + resultado + " numeros enteros positivos";
+    }else{
+        return "el numero no es entero positivo";
+    }
+}
+resulta= cifras(numero);
+alert(resultado);

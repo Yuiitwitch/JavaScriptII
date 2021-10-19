@@ -16,19 +16,28 @@
 
 let numero = prompt("Indicame un numero entero");
 let binario = [];
+let binarioHecho = "";
 
-if (numero == 0) {
-        numero = parseInt(numero);
-        binario.push(0);
+const pasarBinario = (num) => {
+        if (num == 0) {
+                numero = parseInt(num);
+                binario.push(0);
+        }
+
+        while (num > 0) {
+                binario.push(num % 2);
+                num = parseInt(num / 2);
+
+        }
+
+        binario = binario.reverse(binario);
+        for (let i = 0; i < array.lengt; i++) {
+                binarioHecho = binarioHecho + (binario[i]);
+
+
+        }
+
+
 }
-
-while (numero > 0) {
-        binario.push(numero % 2)
-        numero = parseInt(numero / 2)
-
-}
-
-        binario.reverse(binario);
-console.log(binario);
-
-
+pasarBinario(numero);
+console.log(binarioHecho);
