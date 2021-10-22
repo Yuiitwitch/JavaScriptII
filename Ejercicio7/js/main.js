@@ -13,7 +13,7 @@ const dolares = 1.286611;
 const libras = 0.86;
 const yenes = 129.852;
 
-function CambioDivisas(euros, moneda) {
+const CambioDivisas = (euros, moneda) => {
     
 
 switch (moneda) {
@@ -31,4 +31,4 @@ switch (moneda) {
 }
 }
 
-CambioDivisas(euros,moneda);
+console.log(CambioDivisas(euros,moneda));

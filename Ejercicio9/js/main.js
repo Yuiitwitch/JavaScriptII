@@ -22,5 +22,5 @@ const mostrarDatos = () =>{
         suma = suma + (numerosArray[i]);
         
     }
-    console.log(`La seman de todos los numeros ${suma}`);
+    console.log(`La suma de todos los numeros ${suma}`);
 }
